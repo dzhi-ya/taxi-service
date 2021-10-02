@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-mhww!c_1nn#+%zaun4n%h&uxw^uga=s%sbm@09x=k09m$v&t^n
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['http://testtest.std-962.ist.mospolytech.ru/','testtest.std-962.ist.mospolytech.ru']
+ALLOWED_HOSTS = ['relaxy-taxi.std-973.ist.mospolytech.ru']
 
 
 IMPORT_EXPORT_USE_TRANSACTIONS = True
@@ -66,11 +66,12 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.BasicAuthentication',
     ),
 }
-CORS_ORIGIN_ALLOW_ALL = True # If this is used then `CORS_ORIGIN_WHITELIST` will not have any effect
+# If this is used then `CORS_ORIGIN_WHITELIST` will not have any effect
+CORS_ORIGIN_ALLOW_ALL = True
 CORS_ALLOW_CREDENTIALS = True
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:3000',
-] # If this is used, then not need to use `CORS_ORIGIN_ALLOW_ALL = True`
+]  # If this is used, then not need to use `CORS_ORIGIN_ALLOW_ALL = True`
 CORS_ORIGIN_REGEX_WHITELIST = [
     'http://localhost:3000',
 ]
