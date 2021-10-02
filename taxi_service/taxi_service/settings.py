@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-mhww!c_1nn#+%zaun4n%h&uxw^uga=s%sbm@09x=k09m$v&t^n
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['relaxy-taxi.std-973.ist.mospolytech.ru']
+ALLOWED_HOSTS = ['relaxy-taxi2.std-973.ist.mospolytech.ru','http://relaxy-taxi2.std-973.ist.mospolytech.ru/']
 
 
 IMPORT_EXPORT_USE_TRANSACTIONS = True
