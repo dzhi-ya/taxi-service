@@ -1,4 +1,3 @@
-# taxi-service
 # Инженерный проект: Сервис по заказу такси «Relaxy taxi»
 
 Проект был выполнен студенткой московского политеха,  
@@ -25,10 +24,10 @@
 * **Django** — фреймворк для back-end разработки.
 
 ## Ссылки на проект
-* [Сторона клиента](http://ip-sem4-front.std-928.ist.mospolytech.ru/)
-* [Сторона сервера](http://ip-sem4.std-928.ist.mospolytech.ru)
-* [Лендинг](http://ip-sem4-landing.std-928.ist.mospolytech.ru)
-* [Документация + видео презентация](https://clck.ru/WB7XL)
+* [Сторона клиента](http://relaxy-taxi2.std-973.ist.mospolytech.ru/api/)
+* [Сторона сервера](http://relaxy-taxi2.std-973.ist.mospolytech.ru/admin/)
+* [Лендинг](http://relaxy-taxi2.std-973.ist.mospolytech.ru/api/landing)
+* [Документация + видео презентация](https://drive.google.com/drive/folders/1-HFFaZnS9SqvwSjqHcxi0WOFycYwKwxN?usp=sharing)
 
 ## Информация о разработчике
 | Учебная группа | Имя пользователя |       ФИО       |
@@ -38,7 +37,7 @@
 ## Аккаунты для входа 
 |   Логин   |   Пароль   |      Роль     |
 |-----------|------------|---------------|
-|   admin   |    adminadmin   | Администратор |
+|   admin   |    admin   | Администратор |
 | user |  useruser | Пользователь  |
-|     |      |    Компания   |
+|     |      |    Водитель   |
 
